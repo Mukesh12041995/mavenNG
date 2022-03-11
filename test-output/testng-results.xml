@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20066" started-at="2022-03-04T06:35:34Z" finished-at="2022-03-04T06:35:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20066" started-at="2022-03-04T06:35:34Z" finished-at="2022-03-04T06:35:54Z">
+      <class name="org.testng.Screens">
+        <test-method status="PASS" signature="brforeclass()[pri:0, instance:org.testng.Screens@18067a5]" name="brforeclass" is-config="true" duration-ms="4618" started-at="2022-03-04T06:35:34Z" finished-at="2022-03-04T06:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:org.testng.Screens@18067a5]" name="beforemethod" is-config="true" duration-ms="4" started-at="2022-03-04T06:35:38Z" finished-at="2022-03-04T06:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.testng.Screens@18067a5]" name="test1" duration-ms="15114" started-at="2022-03-04T06:35:38Z" finished-at="2022-03-04T06:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:org.testng.Screens@18067a5]" name="aftermethod" is-config="true" duration-ms="245" started-at="2022-03-04T06:35:54Z" finished-at="2022-03-04T06:35:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Screens.test1()[pri:0, instance:org.testng.Screens@18067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- org.testng.Screens -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
